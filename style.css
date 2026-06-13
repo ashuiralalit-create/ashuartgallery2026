@@ -11,10 +11,13 @@ justify-content:space-between;
 align-items:center;
 padding:20px 50px;
 background:#ffffff;
+border-bottom:2px solid #D4AF37;
+position:sticky;
+top:0;
 }
 
 .logo{
-font-size:28px;
+font-size:30px;
 font-weight:bold;
 color:#D4AF37;
 }
@@ -23,6 +26,11 @@ nav a{
 color:#222;
 text-decoration:none;
 margin-left:20px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#D4AF37;
 }
 
 .hero{
@@ -35,34 +43,51 @@ text-align:center;
 padding:20px;
 }
 
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(to right,#faf7f0,#f2e8cf);
+}
+
 .hero h1{
-font-size:48px;
-max-width:800px;
+font-size:52px;
+color:#b8860b;
 }
 
 .hero p{
-font-size:20px;
+font-size:22px;
+max-width:700px;
 }
 
 .btn{
 background:#D4AF37;
-padding:12px 24px;
-color:black;
+color:white;
+padding:14px 28px;
+border-radius:30px;
 text-decoration:none;
 font-weight:bold;
-border-radius:5px;
 }
 
-.gallery-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-padding:30px;
+.btn:hover{
+background:#b8860b;
 }
 
-.gallery-grid img{
-width:100%;
-border-radius:10px;
+.art-card{
+background:white;
+padding:15px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+text-align:center;
+transition:0.3s;
+}
+
+.art-card:hover{
+transform:translateY(-5px);
 }
 
 section{
