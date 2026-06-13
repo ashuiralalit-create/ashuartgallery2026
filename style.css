@@ -1,8 +1,8 @@
 body{
 margin:0;
 font-family:Arial,sans-serif;
-background:#f5f1e8;
-color:#111;
+background:#faf7f0;
+color:#222;
 }
 
 header{
@@ -10,7 +10,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 50px;
-background:#000;
+background:#ffffff;
 }
 
 .logo{
@@ -20,7 +20,7 @@ color:#D4AF37;
 }
 
 nav a{
-color:white;
+color:#222;
 text-decoration:none;
 margin-left:20px;
 }
