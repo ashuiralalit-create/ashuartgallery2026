@@ -115,3 +115,23 @@ text-decoration:none;
 #contact a:hover{
 text-decoration:underline;
 }
+.art-card{
+background:#1c1c1c;
+padding:15px;
+border-radius:10px;
+text-align:center;
+}
+
+.art-card h3{
+color:#D4AF37;
+}
+
+.buy-btn{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:10px 15px;
+border-radius:5px;
+text-decoration:none;
+margin-top:10px;
+}
